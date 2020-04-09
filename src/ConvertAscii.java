@@ -41,7 +41,6 @@ public class ConvertAscii extends MIDlet implements CommandListener{
 	}
 	public void commandAction (Command c, Displayable d){  
 
-		float hsl;
 		if (c == cmdkonversi) {		
 			char teks = input.getString().charAt(0);;
 			Konversi kon = new Konversi(teks);
